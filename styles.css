@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category,
+.discounted-price,
+.description {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    display: flex;
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+}
+
+.product-image {
+    min-width: 50%;
+    width: 60%;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+}
+
+.description-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.category {
+    letter-spacing: 5px;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.product-name,
+.price {
+    font-family: "Fraunces", serif;
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    margin-bottom: 1.5rem;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+}
+
+.discounted-price {
+    font-size: 0.75rem;
+    text-decoration: line-through;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.add-to-cart {
+    width: 100%;
+    height: 3rem;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 9px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .container {
+        display: flex;
+        max-width: 70%;
+    }
+
+    .add-to-cart {
+        height: 2.75rem;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        display: flex;
+        max-width: 80%;
+    }
+
+    .add-to-cart {
+        height: 100%;
+        border-radius: 7px;
+    }
+}
+
+@media (max-width: 375px) {
+    html {
+        font-size: 10px;
+    }
+
+    .container {
+        display: flex;
+        max-width: 80%;
+        flex-direction: column;
+    }
+
+    .product-image {
+        width: 100%;
+        border-radius: 10px 10px 0 0px;
+        object-fit: cover;
+    }
+
+    .add-to-cart {
+        height: 2.5rem;
+        border-radius: 6px;
+        width: 60%;
+        margin: auto;
+    }
+}
