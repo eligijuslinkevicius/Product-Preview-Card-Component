@@ -8,7 +8,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [The challenge](#the-challenge)
   - [Links](#links)
 - [My process](#my-process)
-  - [#built-with]
+  - [Built with](#built-with)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://eligijuslinkevicius.github.io/Product-Preview-Card-Component/)
 
 ## My process
 
@@ -34,5 +34,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/eligijuslinkevicius)
-- Twitter - [@yourusername](https://www.twitter.com/thelinkev)
+- Frontend Mentor - [@eligijuslinkevicius](https://www.frontendmentor.io/profile/eligijuslinkevicius)
+- Twitter - [@thelinkev](https://www.twitter.com/thelinkev)
